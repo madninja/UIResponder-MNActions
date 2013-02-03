@@ -13,10 +13,16 @@ The 'sendAction' methods in the offered category look in the receiver for the im
 Example use:
 
 ``` objective-c
-
 [self sendAction:@selector(presentMessage:) with:aMessage];
-
 ``` 
+
+## Installation
+
+Given how small the code here is, either just copy the two files into your project or use CocoaPods:
+
+``` ruby
+pod 'UIResponder+MNActions', :git => 'https://github.com/madninja/UIResponder-MNActions'
+```
 
 ## Contact
 
